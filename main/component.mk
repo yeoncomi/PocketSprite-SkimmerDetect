@@ -1,0 +1,1 @@
+COMPONENT_EMBED_FILES := sound/beep.wav
