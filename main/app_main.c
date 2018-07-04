@@ -36,7 +36,7 @@ void bluetooth() {
     esp_bt_controller_enable(BT);
     esp_bluedroid_init();
     esp_bluedroid_enable();
-    void bluetooth_get = esp_bt_gap_start_discovery(ESP_BT_INQ_MODE_GENERAL_INQUIRY,0x05,0);
+    return esp_bt_gap_start_discovery(ESP_BT_INQ_MODE_GENERAL_INQUIRY,0x05,0);
 
 }
 
